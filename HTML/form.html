@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="https://www.google.com" method="post">
+
+        <div>
+            <label for="username-input" > Username:- </label>
+            <input id="username-input" type="text" placeholder="Enter your username" name="username" />
+        </div>
+
+        <div>
+            <label for="email-input" > Eamil:- </label>
+            <input id="email-input" type="email" placeholder="Enter your email" value="coding@ninjas.com" name="email" readonly disabled />
+        </div>
+
+        <div>
+            <label for="password-input" > Password:- </label>
+            <input id="password-input" type="password" placeholder="Enter your password" name="password" />
+        </div>
+
+        <div>
+            <input type="hidden" value="12233300" name="uniqueID" />
+        </div>
+
+        <div>
+            Select DSA language:-
+            <input id="C++" type="radio" name="DSA" />
+            <label for="C++"> C++ </label>
+
+            <input id="Java" type="radio" name="DSA"  />
+            <label for="Java"> Java </label>
+
+            <input id="Python" type="radio" name="DSA" />
+            <label for="Python"> Python </label>
+        </div>
+
+        <div>
+            <button type="submit"> Submit </button>
+            <button type="reset" disabled> Reset </button>
+        </div>
+        
+
+    </form>
+    
+</body>
+</html>
