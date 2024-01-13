@@ -30,14 +30,49 @@
 
         <div>
             Select DSA language:-
-            <input id="C++" type="radio" name="DSA" />
+            <input id="C++" type="radio" name="DSA" value="C++" />
             <label for="C++"> C++ </label>
 
-            <input id="Java" type="radio" name="DSA"  />
+            <input id="Java" type="radio" name="DSA" value="Java"  />
             <label for="Java"> Java </label>
 
-            <input id="Python" type="radio" name="DSA" />
+            <input id="Python" type="radio" name="DSA" value="Python" />
             <label for="Python"> Python </label>
+        </div>
+
+        <div>
+            Select Web-D languages:-
+            <input id="JS" type="checkbox" name="Web-D" value="JS" />
+            <label for="JS"> JavaScript </label>
+
+            <input id="ReactJS" type="checkbox" name="Web-D" value="ReactJS" />
+            <label for="ReactJS"> ReactJS </label>
+
+            <input id="AngularJS" type="checkbox" name="Web-D" value="AngularJS" />
+            <label for="AngularJS"> AngularJS </label>
+        </div>
+
+        <label for="DOB"> DOB </label>
+        <input id="DOB" type="date" name="DOB" />
+
+        <label for="profile"> Upload profile picture </label>
+        <input id="profile" type="file" name="profile-picture" />
+
+        <div>
+            Select car model:-
+            <select name="car-model" multiple>
+
+                <option value="BMW"> BMW </option>
+                <option value="Ferrari"> Ferrari </option>
+                <optgroup label="TATA">
+                    <option value="Nexa"> Nexa </option>
+                    <option value="Harrier"> Harrier </option>
+                    <option value="Punch"> Punch </option>
+                    <option value="Altros"> Altros </option>
+                </optgroup>
+                <option value="Suzuki"> Suzuki </option>
+
+            </select>
         </div>
 
         <div>

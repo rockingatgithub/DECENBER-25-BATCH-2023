@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #second {
+            height: 100px;
+            width: 100px;
+            background-color: burlywood;
+        }
+
+        #second:hover {
+            background-color: grey;
+        }
+
+       
+
+        a:visited {
+            color: brown
+        }
+
+
+        a:active {
+            color: yellow
+        }
+
+        input:focus {
+            color: aquamarine;
+        }
+
+        li:nth-child(2n+1) {
+            color: red
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li::before {
+            content: '==>';
+        }
+
+        /* li::after {
+            content: '<=';
+        } */
+
+        #para-1::first-letter {
+            font-weight: 600;
+        }
+
+        #para-1::first-line {
+            color: red;
+        }
+
+        input[type="text"] {
+            border: 2px solid burlywood
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="grp-1">
+        I am the first div!
+    </div>
+
+    <a href="https://www.google.com"> Go to Google </a>
+
+    <input type="text" name="First Name" />
+    <input type="text" name="Last Name" />
+    <input type="password" name="password" />
+    <input type="email" name="email" />
+    <input type="date" name="date" />
+
+
+    <div id="second">
+        I am the second one!
+    </div>
+
+    <h1 class="grp-1"> Heading level 1 </h1>
+
+    <ul>
+        <li> HTML </li>
+        <li> CSS </li>
+        <li> JS </li>
+        <li> ReactJS </li>
+        <li> NodeJS </li>
+    </ul>
+
+    <div>
+        <p id="para-1">
+            I am a text in paragraph.
+            <br/>
+            <span>
+                I am the span in the paragraph.
+            </span>
+        </p>
+        <span> I am a span in the div! </span>
+    </div>
+
+    <span>
+        I am the outer span one.
+    </span>
+
+    <p> I am a paragrpah in between span </p>
+
+    <span>
+        I am the outer span two.
+    </span>
+
+    
+</body>
+</html>

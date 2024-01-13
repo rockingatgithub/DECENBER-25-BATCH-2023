@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            color: red;
+        }
+
+        #second {
+            background-color: antiquewhite;
+        }
+        
+        .grp-1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        p span {
+            color: brown;
+        }
+
+        div span {
+            font-weight: 700;
+        }
+
+        div > span {
+            font-style: italic;
+        }
+
+        div + span {
+            color: coral;
+        }
+
+        div ~ span {
+            text-decoration: solid;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="grp-1">
+        I am the first div!
+    </div>
+
+    <div id="second">
+        I am the second one!
+    </div>
+
+    <h1 class="grp-1"> Heading level 1 </h1>
+
+    <div>
+        <p>
+            I am a text in paragraph.
+            <span>
+                I am the span in the paragraph.
+            </span>
+        </p>
+        <span> I am a span in the div! </span>
+    </div>
+
+    <span>
+        I am the outer span one.
+    </span>
+
+    <p> I am a paragrpah in between span </p>
+
+    <span>
+        I am the outer span two.
+    </span>
+    
+</body>
+</html>
